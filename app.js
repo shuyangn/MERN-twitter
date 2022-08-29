@@ -7,7 +7,7 @@ const passport = require('passport');
 
 const users = require("./routes/api/users");
 const tweets = require("./routes/api/tweets");
-
+const User = require("./models/User");
 
 mongoose
   .connect(db, { useNewUrlParser: true })
